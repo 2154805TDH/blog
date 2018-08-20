@@ -1,8 +1,4 @@
----
-title: Cent OS 初始化
-date: 2018-08-20 19:53:51
-tags:
----
+# Cent OS 初始化
 
 更新系统：\
 `yum update -y`
