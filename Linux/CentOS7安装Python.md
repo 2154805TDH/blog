@@ -11,20 +11,30 @@
 
    ***
 
-   如果上两条不工作：\
+   如果上两条不工作：
+
    `whereis python3`
    `ln -s $? /usr/local/bin/python3`[^n]
    优先将 Python 安装文件夹添加到环境变量中：
 
-   1. 用于当前终端（临时）:\
+   1. 用于当前终端（临时）:
+
       `export PATH=$PATH:<你的要加入的路径>`
-   2. 用于当前用户：\
-      `~/.bashrc` > `export PATH=<路径1>:<路径2>:$PATH`\
+
+   2. 用于当前用户：
+
+      `~/.bashrc` > `export PATH=<路径1>:<路径2>:$PATH`
+
       `source ~/.bashrc`
-   3. 用于所有用户：\
-      `/etc/profile` > `export PATH=<路径1>:<路径2>:$PATH`\
+
+   3. 用于所有用户：
+
+      `/etc/profile` > `export PATH=<路径1>:<路径2>:$PATH`
+
       `source /etc/profile`
-   4. 不推荐的方法：\
+
+   4. 不推荐的方法：
+
       `ln -s $? /usr/local/bin/pip`
 
    ***
